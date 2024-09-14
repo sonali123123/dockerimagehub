@@ -1,0 +1,13 @@
+prefix=D:/Sonali_AI_Projects/Docker_Image/cicd/Library
+exec_prefix=D:/Sonali_AI_Projects/Docker_Image/cicd/Library
+libdir=D:/Sonali_AI_Projects/Docker_Image/cicd/Library/lib
+sharedlibdir=D:/Sonali_AI_Projects/Docker_Image/cicd/Library/lib
+includedir=D:/Sonali_AI_Projects/Docker_Image/cicd/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
